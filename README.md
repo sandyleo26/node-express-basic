@@ -30,7 +30,7 @@ First, we’ll log into Codeship, navigate to the **Projects** tab, and create a
 
 After our application connects, we’ll be presented with the option of making our project a **Codeship Pro** or **Codeship Basic** project. For this example, we’ll be running with Codeship Basic.
 
-Next up is the formulation of  **Setup Commands**. Our setup for Ruby on Rails applications is formulated almost exactly like if were configuring our application locally without Docker.
+Next up is the formulation of  **Setup Commands**. Our setup for nodejs pplications is formulated almost exactly like if were configuring our application locally without Docker.
 
 ```
 psql -p 5432 -c 'create database todos;'
